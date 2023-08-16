@@ -10,41 +10,19 @@
     url = "/posts"
     weight = 2
 
-[[main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories"
-    weight = 3
-
-[[main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags"
-    weight = 4
-
-[[main]]
-    identifier = "donate"
-    name = "Donate"
-    url = "https://ko-fi.com/nixentric"
-    weight = 5
 
 
 # Social Media Configuration
 
 [[social]]
-    identifier = "twitter"
-    name = "Twitter"
-    url = "#"
+    identifier = "linkedin"
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/mattia-de-filippo-467655153/"
     weight = 1
-
-[[social]]
-    identifier = "instagram"
-    name = "Instagram"
-    url = "#"
-    weight = 2
 
 [[social]]
     identifier = "github"
     name = "GitHub"
-    url = "#"
-    weight = 3
+    url = "https://github.com/defilippomattia/"
+    weight = 2
+
