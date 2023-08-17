@@ -36,12 +36,12 @@ Just follow the [official guide](https://gohugo.io/getting-started/quick-start/)
 ### 3. Create a new Hugo site
 
 1. Clone previously created repository.  
-`git clone defilippomattia.github.io`
+`git clone https://github.com/defilippomattia/defilippomattia.github.io.git`
 
 2. `cd ./defilippomattia.github.io`
 
 3. Run Hugo command to create a new site.  
-`hugo new site .`
+`hugo new site myblog`
 
 4. Add a theme, I'm using [Lowkey](https://themes.gohugo.io/themes/lowkey-hugo-theme/). Follow the theme's instructions to install it.
 
@@ -71,73 +71,8 @@ I was suprised how easy it was to setup this, literally in 5 minutes I had a wor
 
 You can host your website on Github Pages for free (on `username.github.io`), but you can also use a custom domain name. I bought my domain name on [Namecheap](https://www.namecheap.com/) and I configured it to point to Github Pages. 
 
+## Conclusion
 
-# Heading 1 {#custom-id}
+With this setup, it's very easy to create and deploy new content. Just create a new post, commit and push it. Github Actions will automatically build and deploy the website.
 
-But what if you want to add another entry to the dictionary without going back to the dictionary to put it there? That's what we are going to look at in this article. And I'm going to show you how to do it in 3 different ways. Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
-
-{{< img src="cat.jpg" alt="how are u" size-method="Fit" size-format="600x400 webp" position="center" >}}
-
-
-> For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.  Here's a sentence with a footnote. [^2]
-
-[^2]: Here We Go
-
-## And I'm going to show you how to do it in 3 different ways.
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
-
-1. Get One
-2. Get Two
-3. Get three
-
-
-### Heading 3
-These elements extend the basic `syntax` by adding additional features. Not all Markdown applications support these elements.
-
----
-
-Control the position of [title](https://www.example.com) the markers and text indentation in a list using the list-inside and list-outside utilities.
-
-- List One
-- List Two
-- List Three
-
-#### Heading 4
-Unlike other blockquote techniques, this style does not require a nested block-level element (like p). As such, it turns a paragraph into an inline-styled element to keep the content from dropping below the quote.
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-##### Heading 5
-
-In the separated borders model, the border makes the entire box look as though it were embedded in the canvas. In the collapsing border model, drawn the same as 'ridge'.
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
-Tailwind lets you conditionally apply utility classes in different states using variant modifiers. For example, use hover:scroll-auto to only ~~The world is flat.~~
- apply the scroll-auto utility on hover.
-
-term
-: definition
-
-###### Heading 6
-
-
-That is so funny! :joy:
-Ini adalah contoh lain dari subscript: x_{2}_.
-
-
-{{< begin-task-list >}}
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+GitHub repository is available here: https://github.com/defilippomattia/defilippomattia.github.io

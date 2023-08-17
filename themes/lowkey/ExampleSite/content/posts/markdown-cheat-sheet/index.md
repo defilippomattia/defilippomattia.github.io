@@ -1,6 +1,6 @@
 ---
 title: "Markdown Cheat Sheet"
-draft: false
+draft: true
 date: 2022-08-27T09:16:45.000Z
 description: "A Python dictionary is like a JavaScript object – it’s a sequence of key:value pairs. So, you can create them like this:"
 categories:

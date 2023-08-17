@@ -26,3 +26,9 @@
     url = "https://github.com/defilippomattia/"
     weight = 2
 
+[[social]]
+    identifier = "goodreads"
+    name = "Goodreads"
+    url = "https://www.goodreads.com/user/show/124284966-mattia-de-filippo"
+    weight = 3
+

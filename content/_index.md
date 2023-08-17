@@ -1,13 +1,12 @@
 ---
-title: "Ahoy There!"
+title: "Hello!"
 draft: false
 ---
-Test [Adam Wathan's](https://adamwathan.me/) Website. Suitable for use as a personal blog, portofolio, etc. 
+I'm Mattia de Filippo, working as software developer in database management field with interest in DevOps, Cloud and automation in general.
 
-If you are interested in using this theme, you can get it on [GitHub](#).
 
 **CV**
 
-My CV is available as PDF [here](https://defilippomattia.com/de-filippo-mattia-cv.pdf) (will open in new tab).
+CV available as PDF [here](https://defilippomattia.com/de-filippo-mattia-cv.pdf) (will open in new tab).
 
 
