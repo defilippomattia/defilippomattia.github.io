@@ -7,6 +7,6 @@ I'm Mattia de Filippo, working as software developer in database management fiel
 
 **CV**
 
-CV available as PDF [here](https://defilippomattia.com/de-filippo-mattia-cv.pdf) (will open in new tab).
+CV available as PDF [here](https://defilippomattia.com/cv.pdf) (will open in new tab).
 
 
