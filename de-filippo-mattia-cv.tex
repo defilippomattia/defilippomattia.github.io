@@ -1,0 +1,99 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Mattia de Filippo} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{ Zagreb, Croatia} 
+\address{\href{www.defilippomattia.com}{www.defilippomattia.com} \\  \href{mailto:defilippomattia@gmail.com}{defilippomattia@gmail.com}
+}  %
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE START
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Cloud Integration Engineer / Software Engineer} \hfill Jan 2021 - present\\
+DataMir d.o.o \hfill
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Created Docker-based database containers preloaded with realistic data which resulted in quicker testing and reduced challenges associated with shared databases.
+    \item Implemented a process for potential customers to try and evaluate company products. The solution is based on AWS, Packer and Django that launches customized virtual machines, allowing users to effortlessly test their desired products.   
+    \item Incorporated Infrastructure as Code principles with Terraform to manage simple networking infrastructure on AWS.
+    \item Implemented features as a member of the product development team specializing in the database management field. Using Python, developed solutions for migrating large amounts of data across different database vendors. Additionally, contributed to a product focused on shrinking database size.
+ \end{itemize}
+ 
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE END
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION START
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf Master of Computer Science}, FER - University of Zagreb \hfill {2021 - 2023}\\
+Thesis: An alerting system based on fall detection of elderly people
+
+{\bf Bachelor of Computer Science}, FER - University of Zagreb \hfill {2016 - 2021}\\
+Thesis: Web-Application for the Visualization of a Contextually Enriched Automotive Data Set
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION END
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+% TECHINICAL SKILLS START	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{TECHNICAL SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming languages & Python, Go\\
+Databases & PostgreSQL, MongoDB\\
+Infrastructure as Code & Packer, Terraform\\
+Containerization & Docker\\
+Web Technologies & REST API, nginx, Redis\\
+Cloud & AWS, Azure\\
+Collaboration & git, redmine\\
+\end{tabular}\\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL SKILLS END	
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	PROJECTS START
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Personal website - defilippomattia.com} {Personal website built with static site generator (Hugo), incorporated CI/CD with GitHub Actions.
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS END
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+% OTHER SKILLS AND INTERESTS START	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{OTHER SKILLS AND INTERESTS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Croatian (native), English (fluent), Italian (fluent)\\
+Interests & football, basketball, photography, graphic design\\
+Volunteering & Students Association - eSTUDENT (Human Resources team)\\
+Courses & Heureka - School of public speaking\\
+\end{tabular}\\
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% OTHER SKILLS AND INTERESTS END	
+%----------------------------------------------------------------------------------------
+
+\end{document}
