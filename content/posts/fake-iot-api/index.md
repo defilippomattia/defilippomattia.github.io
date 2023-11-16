@@ -7,6 +7,8 @@ description: "Pseudo-real IoT data provided by a free REST API."
 
 ## Introduction
 
+**Currently not deployed!**
+
 I created a fake IoT API that provides pseudo-real IoT data. It's available at [fakeiotapi.xyz](https://fakeiotapi.xyz/).
 
 This was mostly done for me to learn deployment of a full stack application on AWS so the actual frontend and backend code is simple and probably not following best practices.
